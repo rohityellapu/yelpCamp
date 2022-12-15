@@ -1,0 +1,10 @@
+<footer class="footer bg-dark py-3 mt-auto">
+    <div class="container">
+        <span class="text-muted">&copy; YelpCamp <span id="copyright"></span></span>
+    </div>
+</footer>
+<script>
+    let date = new Date();
+    let currYear = date.getFullYear();
+    document.getElementById('copyright').innerText = currYear;
+</script>
